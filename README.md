@@ -44,10 +44,10 @@ Parameters
   -------------------------------------------------------------------------
   Parameter       Type       Required     Default          Description
   --------------- ---------- ------------ ---------------- ----------------
-  VMName          String     Yes          —                Name of the
+  VMName          String     Yes          -                Name of the
                                                            virtual machine
 
-  VMSwitch        String     Yes          —                Name of the
+  VMSwitch        String     Yes          -                Name of the
                                                            Hyper-V virtual
                                                            switch
 
@@ -64,7 +64,7 @@ Parameters
   VHDFolder       String     No           Host default     Folder to store
                                                            the VHDX file
 
-  Update          Switch     No           —                Modify existing
+  Update          Switch     No           -                Modify existing
                                                            VM instead of
                                                            throwing an
                                                            error
